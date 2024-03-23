@@ -1,0 +1,136 @@
+/*UNIVERSITI KUALA LUMPUR*/
+/*NUR ALYA NABILAH BINTI ZULKIFLI*/
+/*52052120076*/
+/*FARAH AIN SOFEA BINTI ARIS FADZILAH*/
+/*52052120008*/
+/*MADAM NORSHAHARIZAN PUTEH*/
+/*WEEK 19*/
+
+/*VARIABLES*/
+:root {
+    --offwhite: #FFF3F3;
+    --purple: #C895CE;
+    --lightpurple: #D8B4DC;
+    --darkpurple: #A077A4;
+    --plum: #DDA0DD;
+    --rebeccapurple: #663399;
+    --steelblue: #4682B4;
+    --cornflowerblue: #6495ED;
+    --midnightblue: #191970;
+    --pureblack: #000800;
+}
+
+/*FORM*/
+.section {
+    margin-left: 20%;
+}
+
+.form-container {
+    min-height: 100vh;
+    width: 500px;
+    margin-left: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;
+    perspective: 1000px;
+    top: 1000px;
+}
+
+.join-us {
+    margin-right: 10%;
+    font-size: 30px;
+    color: var(--offwhite);
+    float: left;
+    width: 500px;
+}
+
+.join-us h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.join-us h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.join-us p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.form-container form {
+    height: 450px;
+    width: 350px;
+    background: rgba (255, 255, 255, .1);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur (10px);
+    transform-style: preserve-3d;
+    background: rgb(17,28,50);
+    background: linear-gradient(0deg, rgba(17,28,50,1) 0%, rgba(109,80,112,1) 100%);
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    padding: 30px 0;
+    color: #CCC;
+    letter-spacing: 3px;
+}
+
+.form-container form i {
+    padding: 0.5px;
+    font-size: 20px;
+    color: #BBB;
+}
+
+.form-container form input {
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 82%;
+    background: rgba(0, 0, 0, .1);
+    color: rgba(255, 255, 255, .7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5) inset;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+input[type=submit] {
+    width: 90%;
+    cursor: pointer;
+    background: linear-gradient(90deg, deeppink, blueviolet);
+    margin-top: 30px;
+    border-radius: 50px;
+    background-color: #FF8C00;
+    position: relative;
+    z-index: 1;
+}
+
+input[type=submit]:hover {
+    background: rgba(109,80,112,1);
+    color: var(--offwhite);
+    box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.webexamples {
+    background: var(--offwhite);
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
